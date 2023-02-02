@@ -1,6 +1,8 @@
-#
-# ~/.bash_profile
-#
+echo "~/.bash_profile"
 
-[[ -f ~/.bashrc ]] && . ~/.bashrc
+
+#[[ -f ~/.bashrc ]] && . ~/.bashrc
+
+source .bashrc
+
 

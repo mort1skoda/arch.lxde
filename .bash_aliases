@@ -1,3 +1,4 @@
+echo "~/.bash_aliases"
 #
 #
 #--- header ------------------------------------------------{{{
@@ -92,6 +93,7 @@ alias sd="sudo shutdown -h now"
 
 # filesystem:
 alias lbl="lsblk -o NAME,MODEL,PARTTYPENAME,FSTYPE,SIZE,MOUNTPOINTS,SERIAL"
+alias lsblk='lbl'
 alias cp="cp -iv"
 
 
@@ -122,7 +124,7 @@ alias ,gc='vim ~/.gitconfig'
 
 #--- tmux --------------------------------------------------{{{
 # tm = tmux, start a new tmux session
-alias tm="~/tmux.sh"
+alias tm="tmux"
 # tl = tmux list
 alias tl='tmux ls'
 # ta=tmux attach -t [enter session-name from tl]
