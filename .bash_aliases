@@ -87,7 +87,7 @@ alias sa='source ~/.bash_aliases'
 alias sai='sudo apt install '
 alias sau='sudo apt update -y && sudo apt upgrade -y && autoremove'
 alias pu='sudo pacman -Syyu'
-alias pi='sudo pacman -S '
+alias pi='sudo pacman --noconfirm -S '
 alias rb='sudo reboot'
 alias sd="sudo shutdown -h now"
 
@@ -135,6 +135,11 @@ alias ,t='vim ~/.tmux.conf'
 alias ts='./tmux.session.sh save'
 alias tr="./tmux.session.sh restore"
 #-----------------------------------------------------------}}}
+
+
+#--- openbox -----------------------------------------{{{
+alias or='openbox --reconfigure'
+#-----------------------------------------------------}}}
 
 
 #--- network -----------------------------------------------{{{
