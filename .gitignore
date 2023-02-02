@@ -3,6 +3,9 @@
 .lesshst
 .viminfo
 .bash_history
+*Xorg.0.log*
+.Xauthority
+
 
 
 
