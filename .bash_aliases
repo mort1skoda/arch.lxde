@@ -1,9 +1,12 @@
+#
+#
+#--- header ------------------------------------------------{{{
+#
 #----------------------------------------------------------
 #---      ~/.bash_aliases      ----
 #----------------------------------
 
 
-#--- header ------------------------------------------------{{{
 # Author: Morten Håkestad
 #
 # This script file is source by .bashrc
@@ -94,7 +97,7 @@ alias cp="cp -iv"
 
 # quit or exit shell.  same as quiting vim (whitout save)
 alias q='exit'
-
+#---------------------------------------------------------}}}
 
 
 #--- git ---------------------------------------------------{{{
@@ -106,6 +109,7 @@ alias gsv="git status --verbose"
 alias gpl="git pull"
 alias gr='git remote -v'
 alias gc='git commit -m "$DATE"'
+alias gco='git checkout '
 alias ga='git add'
 alias gaa='git add --all'
 alias gp='git push'
@@ -113,6 +117,7 @@ alias gp='git push'
 alias ,gi='vim .gitignore'
 alias ,gc='vim ~/.gitconfig'
 
+#---------------------------------------------------------}}}
 
 
 #--- tmux --------------------------------------------------{{{
@@ -163,5 +168,5 @@ alias rem.no.dep="sudo pacman -R '$(pacman -Qdtq)' "
 #echo    "                Sourced:" $ALIASES 
 #echo -e "---|---|....end.." $ALIASES "....|---|---"
 #-----------------------------------------------------------}}}
-
-
+#
+#
